@@ -1,0 +1,34 @@
+Project:
+ Name: MyFirstOptix_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ Dependencies:
+  2:
+   Uri: MyFirstOptix
+   RelativePath: MyFirstOptix.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 2.0
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 4.2
+  8:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
+ Nodes: []
